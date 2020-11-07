@@ -1,0 +1,63 @@
+body {
+	background-color: black;
+}
+
+.row {
+	margin: 10px;
+	padding: 10px;
+}
+
+.post {
+	background-color: #fff;
+	width: 450px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.post-header {
+	display: flex;
+	align-items: center;
+}
+
+.html-icon {
+	padding-right: 10px;
+}
+
+h1,
+h2 {
+	font-size: 12px;
+	margin: 0;
+}
+
+h2 {
+	font-weight: normal;
+}
+
+.ellipsis-icon {
+	margin-left: auto;
+}
+
+.img-wrapper {
+	margin: 0;
+	width: inherit;
+}
+
+.fa-comment {
+	margin: 0 6px;
+}
+
+.featured-img {
+	width: inherit;
+}
+
+.icons {
+	display: flex;
+}
+
+.bookmark-icon {
+	margin-left: auto;
+}
+
+.likes {
+	margin: 10px 0;
+}
