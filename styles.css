@@ -55,11 +55,19 @@ img {
     padding-bottom: 15px;
 }
 
+.icon:hover .icon-on,
+.icon .icon-off {
+    display: none;
+}
+.icon:hover .icon-off {
+    display: inline;
+}
+
 .fa-comment, .fa-paper-plane {
     margin-left: 10px;
 }
 
-.fa-bookmark {
+.bookmark {
     margin-left: auto;
 }
 
