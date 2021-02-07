@@ -13,7 +13,7 @@ body {
 }
 
 .wrapper {
-    margin: 0 auto;
+    margin: 50px auto;
     background-color: #fff;
     width: 500px;
     height: auto;
@@ -22,14 +22,19 @@ body {
 .header {
     flex-direction: row;
     align-items: center;
+    padding: 15px;
 }
 
-h1 {
-    
+.fa-instagram {
+    margin-right: 10px;
 }
 
-h2, p, strong {
-    font-size: 1.5rem;
+.fa-ellipsis-v {
+    margin-left: auto;
+}
+
+h1, h2, p, strong {
+    font-size: 1.7rem;
 }
 
 img {
@@ -37,6 +42,27 @@ img {
     height: auto;
 }
 
+.icons {
+    align-items: center;
+}
+
 .content {
     flex-direction: column;
+    padding: 15px;
+}
+
+.icons {
+    padding-bottom: 15px;
+}
+
+.fa-comment, .fa-paper-plane {
+    margin-left: 10px;
+}
+
+.fa-bookmark {
+    margin-left: auto;
+}
+
+.likes {
+    padding-bottom: 15px;
 }
